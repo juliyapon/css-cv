@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto+Serif & display=swap')
+
+body{
+    background-color: #f1f1f1;
+    
+    font-size 16px;
+    font-weight normal;
+    font-family 'Roboto Serif', sans-serif;
+    /* font: normal; 16px; 'Roboto Serif', sans-serif; */
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+}
+
+
+
+ h2{
+     font-size: 30px;
+     text-align: center;
+
+ }
+ .foto {
+     margin-left: 10px;
+     width: 200px;
+     border-radius: 30%;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 15px);
+}
+.info p {
+    text-align: center;
+    color: #c51cbd;
+    margin: 20px;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.info {
+    display: flex;
+}
+
+@media (max-width:700px) {
+    .info {
+        display:block;
+        text-align: center;
+    }
+}
+
+.info h1 {
+    text-align: center;
+    background-color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* box model */
+.social {   
+    background: rgb(144, 172, 21);
+    padding: 15px;
+    border: 10px solid yellow;
+    border-top-style: dotted;
+    margin: 25px;
+    }
+
+.social li{
+        list-style: none;
+    }
+    
+    a:active {color:blueviolet}
+    a:link {color:red}
+    a:visited {color:purple}
+    a:hover {background:rgb(142, 180, 38)}
+
+.container{
+    max-width: 750px;
+    margin: auto;
+}
+
+.card {
+    padding: 15px 20 px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.card {
+    margin: 10px;
+    padding: 10px;
+    background-color: aquamarine;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card {
+    font-style: italic;
+}
+
+.bg-yellow{
+    background-color: rgb(236, 240, 28);
+}
+
+.bg-green{
+    background-color: rgb(121, 219, 121);
+}
+ .bg-red{
+     background-color: rgb(230, 144, 144);
+ }
+
+ .list{
+     padding:20px 40pxpx;
+     list-style-position: inside;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+
+ .list li{
+     color: rgb(78, 35, 35);
+     margin-bottom: 10px;
+ }
+ .table{
+     width : 85%;
+     text-align: left;
+     border-width: 10px;
+     margin: 20px 
+ }
+
+ .table td:nth-child(1){
+     background-color: aquamarine;
+ }
+ .table td:nth-child(2){
+    background-color: aquamarine;
+}
+.table td:nth-child(3){
+    background-color: aquamarine;
+}
+ .contact h2{
+     text-align: center;
+ }
+
+ .form-group label {
+     display: block;
+     font-size: 16px;
+     color: rgb(12, 7, 7);
+ }
+
+ .form-group input,
+ .form-group textarea {
+     width: 100%;
+     box-sizing: border-box;
+     border: 50px;
+     border-bottom:  1px solid greenyellow;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .row {
+        
+        display: flex;
+        box-sizing: border-box;
+        width: 350px;
+        border: 50 px;
+        padding-bottom: 20px;
+    }
+
+    .btn {
+        background: #2e092c;
+        color: aliceblue;
+        padding: 15px 20px;
+        border: none;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        opacity: 0.9;
+    }
